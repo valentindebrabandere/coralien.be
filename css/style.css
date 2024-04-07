@@ -1,0 +1,240 @@
+@font-face {
+  font-family: "Questa Grande";
+  src: url("../fonts/2Questa_Grande_Regular.woff") format("woff"),
+    url("../fonts/2Questa_Grande_Regular.woff2") format("woff2"),
+    url("../fonts/2Questa_Grande_Regular.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: var(--color-white);
+  background: url(../img/fond.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin-top: 0;
+  margin-bottom: 1, 5rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-white: #fffcf9;
+  --color-blue: #a7cbde;
+  --color-green: #1ed760;
+}
+
+/*==============
+=container
+===============*/
+
+.o-container {
+  padding-left: calc(24 / 16 * 1rem);
+  padding-right: calc(24 / 16 * 1rem);
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 750px) {
+  .o-container {
+    padding-left: calc(60 / 16 * 1rem);
+    padding-right: calc(60 / 16 * 1rem);
+  }
+}
+
+/*==============
+=coralien
+===============*/
+
+.c-coralien {
+  background: url(../img/photo2x.png) calc(30% - 100px) 100% no-repeat;
+  background-size: calc(600 / 1080 * 100vh);
+  /* background-size: calc(300 / 320 * 100vw); */
+  height: 100vh;
+}
+
+@media all and (min-width: 750px) {
+  .c-coralien {
+    background: url(../img/photo2x.png) calc(60% - 220px) 100% no-repeat;
+    background-size: calc(700 / 1080 * 100vh);
+  }
+}
+
+/*==============
+=content
+===============*/
+
+.c-coralien__content {
+  position: relative;
+  left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c-title {
+  font-family: "Questa Grande", "Times New Roman", Times, serif;
+  font-size: calc(80 / 16 * 1rem);
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 5rem;
+}
+
+.c-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+@media all and (min-width: 750px) {
+  .c-coralien__content {
+    left: +15%;
+  }
+
+  .c-title {
+    font-family: "Questa Grande", "Times New Roman", Times, serif;
+    font-size: calc(126 / 16 * 1rem);
+    line-height: 7rem;
+  }
+
+  .c-subtitle {
+    font-size: calc(22 / 16 * 1rem);
+  }
+}
+/*==============
+=social
+===============*/
+
+.c-social {
+  display: grid;
+  grid-template: "a b" "c d";
+  grid-gap: calc(30 / 16 * 1rem);
+  margin: calc(35 / 16 * 1rem);
+  margin-top: calc(125 / 550 * 100vh);
+}
+
+.c-social__icon {
+  fill: var(--color-white);
+  transition: transform ease-in-out 0.2s, opacity ease-in-out 0.2s;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 16px;
+  width: 50px;
+  height: 50px;
+}
+
+.c-social__icon:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+  transition: transform ease-in-out 0.2s, opacity ease-in-out 0.2s;
+}
+
+@media all and (min-width: 750px) {
+  .c-social {
+    grid-gap: calc(52 / 16 * 1rem);
+    margin: calc(60 / 16 * 1rem);
+  }
+
+  .c-social__icon {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@supports not (
+  (-webkit-backdrop-filter: blur(5px)) or (backdrop-filter: blur(5px))
+) {
+  .c-social__icon {
+    background-color: #a7cbde90;
+  }
+}
+
+/*============== 
+=links
+===============*/
+
+.c-allBtns{
+  display: flex;
+  flex-direction: column;
+}
+
+.c-cta-link {
+  background-color: var(--color-green);
+  padding: 12px 20px;
+  color: var(--color-white);
+  border-radius: 10px;
+  font-size: calc(16 / 16 * 1rem);
+  font-weight: 600;
+
+  transition: transform ease-in-out 0.2s;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.c-cta-link:hover {
+  transform: scale(1.05);
+  transition: transform ease-in-out 0.2s;
+}
+
+.c-cta-link--invert{
+  background-color: transparent;
+  -webkit-box-shadow: inset 0px 0px 0px 0px var(--color-white);
+  -moz-box-shadow: inset 0px 0px 0px 0px var(--colorw--color-white);
+  box-shadow: inset 0px 0px 0px 4px var(--color-white);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.c-mail {
+  text-decoration: underline;
+  color: var(--color-white);
+  font-size: calc(14 / 16 * 1rem);
+  opacity: 1;
+  transition: opacity ease-in-out 0.2s;
+}
+
+.c-mail:hover {
+  opacity: 0.6;
+  transition: opacity ease-in-out 0.2s;
+}
+
+@media all and (min-width: 750px) {
+  .c-cta-link {
+    padding: 17px 40px;
+    border-radius: 20px;
+    font-size: calc(20 / 16 * 1rem);
+  }
+  .c-mail {
+    text-decoration: underline;
+    color: var(--color-white);
+    font-size: calc(18 / 16 * 1rem);
+    opacity: 1;
+    transition: opacity ease-in-out 0.2s;
+  }
+}
