@@ -15,12 +15,26 @@
   <script type="module" defer src="/js/script.js"></script>
 
   <script>
-  function smoothScrollToTop() {
+    // function for on click event
+
+    function smoothScrollToTop() {
       window.scrollTo({
         top: 0,
         behavior: 'smooth'
       });
-    }</script>
+    }
+
+    function checkIfOpenUrl(e) {
+      if (e.target.classList.contains("c-concert-item__location") || e.target.parentElement.classList.contains("c-concert-item__location")){
+        return
+      }
+      else {
+        let url = e.target.closest(".c-concert-item").dataset.googleAgenda;
+        window.open(url, '_blank');
+      }
+    }
+
+  </script>
 
 </head>
 

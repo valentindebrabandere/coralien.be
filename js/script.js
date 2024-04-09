@@ -5,7 +5,7 @@ import { formatGoogleMapsSearchURL } from "./utils/formatGoogleMapsSearchURL.js"
 import { removeDuplicateConcerts, removeOldConcerts, sortConcertsByDate, parseMarkdownToConcerts } from "./utils/formatDatas.js";
 
 
-const dataURL = "/data/concerts.md";
+const dataURL = "https://raw.githubusercontent.com/valentindebrabandere/coralien.be/main/data/concerts.md";
 const concertsList = document.querySelector(".c-concerts__list");
 
 // Fetch the data
@@ -32,7 +32,7 @@ function createConcertsList(concerts) {
 
         const concertItemContent = `
         
-            <div class="c-concert-item" onClick="checkIfOpenUrl(e)"">
+            <div class="c-concert-item" onClick="checkIfOpenUrl(event)" data-google-agenda="${googleCalendarURL}"">
                 <div class="c-concert-item__header">
                     <p class="c-concert-item__date">${formatDateToFrench(concert.date)}</p>
                     <p class="c-concert-item__hour">${concert.time}</p>
@@ -61,7 +61,9 @@ const scrollIcon = document.querySelector(".c-scoll-svg");
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-    // console log the scroll position
+    if (window.innerWidth < 750) {
+        return
+    }
     if (document.documentElement.scrollTop > 100) {
         if (!scrollIcon.classList.contains("c-scoll-svg--hidden"))
             scrollIcon.classList.add("c-scoll-svg--hidden");
@@ -69,17 +71,5 @@ function scrollFunction() {
         if (scrollIcon.classList.contains("c-scoll-svg--hidden")){
             scrollIcon.classList.remove("c-scoll-svg--hidden");
         }
-    }
-
-}
-  
-// function to check if the user is clicking on the link for location or the div
-
-function checkIfOpenUrl(e) {
-    if (e.target.classList.contains("c-concert-item__site-icon")) {
-        return
-    }
-    else {
-        window.open('${googleCalendarURL}', '_blank');
     }
 }

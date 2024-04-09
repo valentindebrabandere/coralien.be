@@ -119,6 +119,8 @@ a {
   width: 42px;
   left: 50%;
   transform: translate3d(-50%, 0, 0);
+
+  display: none;
   
   transition: opacity ease-in-out 0.2s, transform ease-in-out 0.2s;
   z-index: 2;
@@ -128,6 +130,12 @@ a {
   opacity: 0;
   pointer-events: none;
   transform: translate3d(-50%, 20px, 0);
+}
+
+@media all and (min-width: 750px) {
+  .c-scoll-svg{
+    display: block;
+  }
 }
 
 /*==============
@@ -142,6 +150,7 @@ a {
   justify-content: center;
 
   margin-left: 0;
+  margin: 0 auto;
 
   width: fit-content;
   height: 100%;
@@ -149,7 +158,13 @@ a {
 
 @media all and (min-width: 750px) {
   .c-coralien__content {
-    margin-left: 40vw;
+    margin-left: 20vw;
+  }
+}
+
+@media all and (min-width: 1040px) {
+  .c-coralien__content {
+    margin-left: 35vw;
   }
 }
 
@@ -342,7 +357,9 @@ a {
   flex-direction: column;
   gap: 0.6rem;
 
-  width: 550px;
+  width: 100%;
+  max-width: 550px;
+  box-sizing: border-box;
 
   padding: 1rem;
   background-color: #ffffff1a;
