@@ -1,0 +1,64 @@
+<svg id="svg-anim" width="36" height="81" viewBox="0 0 36 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="svg-scroll">
+    <rect id="svg-scroll-mouse" x="1.58691" y="1.94839" width="32.9918" height="53" rx="16.4959" stroke="white" stroke-width="2"/>
+    <circle id="scroll-svg-btn" cx="18.083" cy="16.4484" r="2.5" fill="white"/>
+    </g>
+    <style>
+      #svg-anim{
+        overflow: visible;
+      }
+      
+      @media all and (max-width :  1200px){
+          #svg-anim{
+              display: none;
+          }
+      }
+
+      #svg-scroll {
+        animation: svg-scroll 2.5s ease-in-out infinite;
+      }
+
+      @keyframes svg-scroll {
+        20% {
+          transform: translateY(0);
+        }
+
+        60% {
+          transform: translateY(25px);
+        }
+
+        90% {
+          transform: translateY(0px);
+        }
+
+        100% {
+          transform: translateY(0px);
+        }
+      }
+
+      #scroll-svg-btn {
+        animation: svg-btn-scroll 2.5s ease-in-out infinite;
+      }
+
+      @keyframes svg-btn-scroll {
+        20% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+
+        60% {
+          transform: translateY(25px);
+          opacity: 0;
+        }
+
+        80% {
+          opacity: 0;
+        }
+
+        90% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      }
+    </style>
+    </svg>   
