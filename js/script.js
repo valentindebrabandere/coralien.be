@@ -32,18 +32,18 @@ function createConcertsList(concerts) {
 
         const concertItemContent = `
         
-            <div class="c-concert-item" onClick="checkIfOpenUrl(event)" data-google-agenda="${googleCalendarURL}"">
-                <div class="c-concert-item__header">
+            <div class="c-concert-item" onClick="checkIfOpenUrl(event)" data-link="${concert.link}"">
+                <a herf="${googleCalendarURL}" class="c-concert-item__header">
                     <p class="c-concert-item__date">${formatDateToFrench(concert.date)}</p>
                     <p class="c-concert-item__hour">${concert.time}</p>
-                </div>
+                </a>
                 <h3 class="c-concert-item__title">${concert.name}</h3>
                 <div class="c-concert-item__footer">
                     <a href="${formatGoogleMapsSearchURL(concert.address)}" target="_blank" class="c-concert-item__location">
                     <img class="c-concert-item__location-icon" src="./img/svg/map-icon.svg" alt="Icône de plan">
                     <p class="c-concert-item__location-text">${concert.address}</p>
                     </a>
-                    <a href="${googleCalendarURL}" class="c-concert-item__site">
+                    <a href="${concert.link}" class="c-concert-item__site">
                         <img class="c-concert-item__site-icon" src="./img/svg/arrow.svg" alt="Flèche poitnant vers la droite">
                     </a>
                 </div>

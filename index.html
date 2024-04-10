@@ -25,11 +25,11 @@
     }
 
     function checkIfOpenUrl(e) {
-      if (e.target.classList.contains("c-concert-item__location") || e.target.parentElement.classList.contains("c-concert-item__location")){
+      if (e.target.classList.contains("c-concert-item__location") || e.target.parentElement.classList.contains("c-concert-item__location") || e.target.classList.contains("c-concert-item__header") || e.target.parentElement.classList.contains("c-concert-item__header")){
         return
       }
       else {
-        let url = e.target.closest(".c-concert-item").dataset.googleAgenda;
+        let url = e.target.closest(".c-concert-item").dataset.link;
         window.open(url, '_blank');
       }
     }
