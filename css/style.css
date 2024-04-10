@@ -379,9 +379,26 @@ a {
 }
 
 .c-concert-item__header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.c-concert-item__header::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--color-white);
+
+  transition: width ease-in-out 0.3s;
+}
+
+.c-concert-item__header:hover::before {
+  width: 100%;
 }
 
 .c-concert-item__header p {

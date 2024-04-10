@@ -34,7 +34,7 @@ function createConcertsList(concerts) {
         const concertItemContent = `
         
             <div class="c-concert-item" onClick="checkIfOpenUrl(event)" data-link="${concert.link}"">
-                <a herf="${googleCalendarURL}" class="c-concert-item__header">
+                <a href="${googleCalendarURL}" class="c-concert-item__header">
                     <p class="c-concert-item__date">${formatDateToFrench(concert.date)}</p>
                     <p class="c-concert-item__hour">${concert.time}</p>
                 </a>
