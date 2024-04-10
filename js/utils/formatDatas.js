@@ -23,27 +23,27 @@ export function sortConcertsByDate(concerts) {
 }
 
 export function parseMarkdownToConcerts(markdownText) {
-  const concertBlocks = markdownText.split("\n### ").slice(1); // Split into concert sections
-  return concertBlocks.map((block) => {
-    const lines = block.split("\n").filter((line) => line.trim()); // Split block into lines and remove empty ones
-    const name = lines[0].trim();
-    const date = lines
-      .find((line) => line.startsWith("- **Date**:"))
-      .split(": ")[1]
-      .trim();
-    const time = lines
-      .find((line) => line.startsWith("- **Time**:"))
-      .split(": ")[1]
-      .trim();
-    const address = lines
-      .find((line) => line.startsWith("- **Address**:"))
-      .split(": ")[1]
-      .trim();
-    const link = lines
-      .find((line) => line.startsWith("- **Link**:"))
-      .split(": ")[1]
-      .trim();
-
-    return { date, time, name, address, link };
-  });
-}
+    const concertBlocks = markdownText.split("\n### ").slice(1); // Split into concert sections
+    return concertBlocks.map((block) => {
+      const lines = block.split("\n").filter((line) => line.trim()); // Split block into lines and remove empty ones
+      const name = lines[0].trim();
+  
+      const findLine = (lineStart, concertName) => {
+        const line = lines.find((line) => line.startsWith(lineStart));
+        if (!line) {
+          console.warn(`Warning: '${lineStart.trim()}' not provided for concert '${concertName}'.`);
+          return 'Not provided';
+        }
+        return line.split(": ")[1].trim();
+      };
+  
+      const date = findLine("- **Date**", name);
+      const time = findLine("- **Time**", name);
+      const address = findLine("- **Address**", name);
+      const link = findLine("- **Link**", name);
+  
+      return { date, time, name, address, link };
+    });
+  }
+  
+  

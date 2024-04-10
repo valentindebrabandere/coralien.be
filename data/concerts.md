@@ -29,4 +29,4 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 - **Date**: 23-05-2024
 - **Time**: 21:00
 - **Address**: Rte de Renipont 70, 1380 Lasne
-- - **Link**: https://www.lerideaurouge.be/agenda/coralien-1700
+- **Link**: https://www.lerideaurouge.be/agenda/coralien-1700

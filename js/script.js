@@ -5,6 +5,7 @@ import { formatGoogleMapsSearchURL } from "./utils/formatGoogleMapsSearchURL.js"
 import { removeDuplicateConcerts, removeOldConcerts, sortConcertsByDate, parseMarkdownToConcerts } from "./utils/formatDatas.js";
 
 
+// const dataURL = "/data/concerts.md";
 const dataURL = "https://raw.githubusercontent.com/valentindebrabandere/coralien.be/main/data/concerts.md";
 const concertsList = document.querySelector(".c-concerts__list");
 
