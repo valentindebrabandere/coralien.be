@@ -8,7 +8,7 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 - Les anciens éléments ne sont pas montés sur le site et les éléments dupliqués égalements
 - Ils sont classés par date sur le site donc pas besoin de le faire ici
   
-## Exemmple que tu peux copier coller
+## Exemple que tu peux copier coller
 
 <!-- as code -->
 ```markdown
