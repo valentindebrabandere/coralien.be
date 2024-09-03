@@ -24,17 +24,9 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
   
 ---
 
-### Rideau Rouge
+### Stoumont
 
-- **Date**: 23-05-2024
-- **Time**: 21:00
-- **Address**: Rte de Renipont 70, 1380 Lasne
-- **Link**: https://www.lerideaurouge.be/agenda/coralien-1700
-
-
-### Chez val
-
-- **Date**: 27-09-2037
-- **Time**: 18:00
-- **Address**: 2 rue Charles de Coster 1348 Louvain-la-Neuve
-- **Link**: https://www.url-du-concert.be
+- **Date**: 22-11-2024
+- **Time**: 20:15
+- **Address**: Atelier Dejardin guitare 4987 Stoumont
+- **Link**: [https://www.url-du-concert.be](https://shop.utick.be/?module=QUANTITY&q=171859FC-3218-EC47-ACDA-11E3EEF8ABBB&pos=CCSPA)
