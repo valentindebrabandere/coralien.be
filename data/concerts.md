@@ -40,7 +40,7 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 
 ### Spa
 
-- **Date**: 26-02-2025
+- **Date**: 01-03-2025
 - **Time**: 19:15
 - **Address**: Pavillon du Wayai 4845 Sart-Lez-Spa
 - **Link**: https://www.infinitix.be/event/20878/?r=&c=
