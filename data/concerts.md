@@ -30,3 +30,17 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 - **Time**: 20:15
 - **Address**: Atelier Dejardin guitare 4987 Stoumont
 - **Link**: [https://www.infinitix.be/event/20878/?r=&c=](https://www.infinitix.be/event/20878/?r=&c=)
+
+### Sart-Lez-Spa
+
+- **Date**: 28-02-2025
+- **Time**: 20:15
+- **Address**: Pavillon du Wayai 4845 Sart-Lez-Spa
+- **Link**: [https://www.infinitix.be/event/20878/?r=&c=](https://www.infinitix.be/event/20878/?r=&c=)
+
+  ### Sart-Lez-Spa
+
+- **Date**: 01-03-2025
+- **Time**: 20:15
+- **Address**: Centre culturel Spa-Jalhay-Stoumont 4900 Spa
+- **Link**: [https://www.infinitix.be/event/20878/?r=&c=](https://www.infinitix.be/event/20878/?r=&c=)
