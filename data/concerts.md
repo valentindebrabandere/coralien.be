@@ -30,3 +30,11 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 - **Time**: 21:00
 - **Address**: Rte de Renipont 70, 1380 Lasne
 - **Link**: https://www.lerideaurouge.be/agenda/coralien-1700
+
+
+### Chez val
+
+- **Date**: 27-09-2037
+- **Time**: 18:00
+- **Address**: 2 rue Charles de Coster 1348 Louvain-la-Neuve
+- **Link**: https://www.url-du-concert.be
