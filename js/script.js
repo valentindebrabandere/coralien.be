@@ -24,6 +24,8 @@ fetch(dataURL)
 
 // Create the concerts list
 function createConcertsList(concerts) {
+    // Get the reference to the end item in the list
+    const endItem = document.querySelector(".c-concerts__list-item--end");
 
     concerts.forEach(concert => {
         const concertItem = document.createElement("li");
@@ -32,8 +34,7 @@ function createConcertsList(concerts) {
         const googleCalendarURL = createGoogleCalendarURL(concert);
 
         const concertItemContent = `
-        
-            <div class="c-concert-item" onClick="checkIfOpenUrl(event)" data-link="${concert.link}"">
+            <div class="c-concert-item" onClick="checkIfOpenUrl(event)" data-link="${concert.link}">
                 <a href="${googleCalendarURL}" class="c-concert-item__header">
                     <p class="c-concert-item__date">${formatDateToFrench(concert.date)}</p>
                     <p class="c-concert-item__hour">${concert.time}</p>
@@ -49,12 +50,12 @@ function createConcertsList(concerts) {
                     </a>
                 </div>
             </div>
-
         `;
         concertItem.innerHTML = concertItemContent;
-        concertsList.insertBefore(concertItem, concertsList.firstChild);
-    }
-    );
+
+        // Insert the new concert item before the end item
+        concertsList.insertBefore(concertItem, endItem);
+    });
 }
 
 const scrollIcon = document.querySelector(".c-scoll-svg");
