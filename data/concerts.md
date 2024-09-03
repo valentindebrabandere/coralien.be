@@ -29,4 +29,4 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 - **Date**: 22-11-2024
 - **Time**: 20:15
 - **Address**: Atelier Dejardin guitare 4987 Stoumont
-- **Link**: [https://www.url-du-concert.be](https://shop.utick.be/?module=QUANTITY&q=171859FC-3218-EC47-ACDA-11E3EEF8ABBB&pos=CCSPA)
+- **Link**: https://www.infinitix.be/event/20878/?r=&c=
