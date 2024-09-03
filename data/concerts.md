@@ -14,7 +14,7 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 ```markdown
 ### Nom du lieu
 
-- **Date**: DD-MM-YYYY
+- **Date**: DD-MM-2025
 - **Time**: HH:MM
 - **Address**: Adresse prise de Google maps
 - **Link**: https://www.url-du-concert.be
