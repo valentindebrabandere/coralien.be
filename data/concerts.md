@@ -44,3 +44,10 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 - **Time**: 19:15
 - **Address**: Pavillon du Wayai 4845 Sart-Lez-Spa
 - **Link**: https://www.infinitix.be/event/20878/?r=&c=
+
+- ### Zik Zak
+
+- **Date**: 21-03-2025
+- **Time**: 20:00
+- **Address**: Rue de Tubize 28, 1460 Ittre
+- **Link**: https://www.url-du-concert.be](https://zik-zak.be/agenda/lemon-straw/
