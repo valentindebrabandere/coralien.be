@@ -45,9 +45,16 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 - **Address**: Pavillon du Wayai 4845 Sart-Lez-Spa
 - **Link**: https://www.infinitix.be/event/20878/?r=&c=
 
-- ### Zik Zak
+### Zik Zak
 
 - **Date**: 21-03-2025
 - **Time**: 20:00
 - **Address**: Rue de Tubize 28, 1460 Ittre
-- **Link**: https://www.url-du-concert.be](https://zik-zak.be/agenda/lemon-straw/
+- **Link**: https://zik-zak.be/agenda/lemon-straw/
+
+### Cabaret chez Emile
+
+- **Date**: 27-06-2025
+- **Time**: 20:30
+- **Address**: Place Saint-Vincent, Nil-Saint-Vincent-Saint-Martin, Belgium
+- **Link**: https://cabaretchezemile.wixsite.com/cabaret-chez-emile/agenda
