@@ -16,8 +16,8 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 
 - **Date**: DD-MM-2025
 - **Time**: HH:MM
-- **Address**: Lac des Doyards6690 Vielsalm
-- **Link**: https://www.url-du-concert.be](https://www.facebook.com/events/1056294016464767
+- **Address**: Lac des Doyards 6690 Vielsalm
+- **Link**: https://www.facebook.com/events/1056294016464767
 ```
 
 ## Liste des concerts
