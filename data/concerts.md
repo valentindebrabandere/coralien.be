@@ -16,8 +16,8 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 
 - **Date**: DD-MM-2025
 - **Time**: HH:MM
-- **Address**: Lac des Doyards 6690 Vielsalm
-- **Link**: https://www.facebook.com/events/1056294016464767
+- **Address**: Adresse prise sur google maps
+- **Link**: 
 ```
 
 ## Liste des concerts
@@ -28,7 +28,7 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 - **Date**: 27-07-2025
 - **Time**: 11:00
 - **Address**: Lac des Doyards 6690 Vielsalm
-- **Link**: https://www.url-du-concert.be
+- **Link**: https://www.facebook.com/events/1056294016464767
 
 ### Stoumont
 
