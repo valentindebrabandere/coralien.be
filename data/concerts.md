@@ -16,13 +16,19 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 
 - **Date**: DD-MM-2025
 - **Time**: HH:MM
-- **Address**: Adresse prise de Google maps
-- **Link**: https://www.url-du-concert.be
+- **Address**: Lac des Doyards6690 Vielsalm
+- **Link**: https://www.url-du-concert.be](https://www.facebook.com/events/1056294016464767
 ```
 
 ## Liste des concerts
   
 ---
+### Lac des Doyards
+
+- **Date**: 27-07-2025
+- **Time**: 11:00
+- **Address**: Adresse prise de Google maps
+- **Link**: https://www.url-du-concert.be
 
 ### Stoumont
 
