@@ -27,7 +27,7 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 
 - **Date**: 27-07-2025
 - **Time**: 11:00
-- **Address**: Adresse prise de Google maps
+- **Address**: Lac des Doyards 6690 Vielsalm
 - **Link**: https://www.url-du-concert.be
 
 ### Stoumont
