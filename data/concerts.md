@@ -23,6 +23,14 @@ Créé tes concerts en duplicant un des évènement et en gardant le bon format 
 ## Liste des concerts
   
 ---
+
+### Cirque Royal
+
+- **Date**: 13-02-2027
+- **Time**: 19:00
+- **Address**: Rue de l'Enseignement 81, 1000 Bruxelles
+- **Link**: https://my.weezevent.com/coralien-le-grand-coup-de-coeur
+  
 ### Lac des Doyards
 
 - **Date**: 27-07-2025
